@@ -1,0 +1,25 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T04:56:47Z",
+  "project_root": "/tmp/push_GpsTracker_20260916_013256",
+  "files": 108,
+  "symbols": 488,
+  "imports": 19809,
+  "resolved_imports": 6,
+  "security_findings": 0,
+  "languages": {
+    "java": 14,
+    "h": 2,
+    "cs": 15,
+    "js": 22,
+    "php": 55
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
